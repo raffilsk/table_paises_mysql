@@ -16,16 +16,16 @@ Exemplo:
 
 
 ## Criar a table
-
+```
 CREATE TABLE IF NOT EXISTS paises (
   id tinyint(3) unsigned NOT NULL,
   tx_name_pt varchar(50) NOT NULL,
   tx_sigla varchar(2)
   PRIMARY KEY (id)
 )
-
+```
 ## Inserir os dados
-
+```
 INSERT INTO paises (id, tx_name_pt, tx_sigla) VALUES
 (101, 'Afeganistão', 'AF'),
 (104, 'Africa do Sul', 'ZA'),
@@ -277,3 +277,4 @@ INSERT INTO paises (id, tx_name_pt, tx_sigla) VALUES
 (842, 'Zaire', 'ZR'),
 (845, 'Zâmbia', 'ZM'),
 (848, 'Zimbábue', 'ZW')
+```
